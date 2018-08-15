@@ -1,9 +1,10 @@
+/* general areas */
 nav{
     background-color: #2b1f31;
     /* background-color: #ffc300; */
     color: #fff;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: flex-start;
     align-items: center;
 }
 
@@ -14,16 +15,10 @@ body{
     margin: 0;
 }
 
-.main-page{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
 button{
-    background-color: #bef992;
+    background-color: #a40a3c;
     /* background-color: #155e63; */
-    color: #000;
+    color: #fff;
 }
 
 footer{
@@ -31,6 +26,37 @@ footer{
     /* background-color: #ffc300; */
     color: #fff;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: flex-start;
     align-items: center;
+}
+
+/* specific classes */
+.main-page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.knucks-area{
+    min-height: 15rem;
+    min-width: 23rem;
+    background-color: #ffc300;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+.knucks{
+    color: black;
+    font-size: 28px;
+    font-family: fantasy;
+    display: flex;
+    justify-content: center;
+}
+
+.header-items{
+    margin: 1rem;
+}
+
+.footer-items{
+    margin: 1rem;
 }

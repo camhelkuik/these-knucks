@@ -2,7 +2,7 @@ import Controller from '@ember/controller';
 
 export default Controller.extend({
     knucks: null, 
-    knucksArray: ["your mama", "punk cats", "funk rats"],
+    knucksArray: ["your mama", "punk cats", "funk rats", "cute bats"],
 
     actions : {
         generateKnucks(){
